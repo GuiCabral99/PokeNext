@@ -14,8 +14,8 @@ export default function Card({ pokemon }) {
       />
       <p>#{pokemon.id}</p>
       <h3>{pokemon.name}</h3>
-      <Link href="/">
-        <a>Detalhes</a>
+      <Link href={`/pokemons/${pokemon.id}`}>
+        <a>Details</a>
       </Link>
     </div>
   );

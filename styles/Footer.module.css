@@ -1,17 +1,22 @@
 .footer {
   background-color: #ef5350;
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 8rem;
   margin-top: 2rem;
 }
 
-.footer p span {
+.footer .copy p span {
   font-weight: bold;
   font-size: 1.2rem;
   color: #feca1b;
   margin-right: 0.5rem;
   text-shadow: -1.5px 0px #3761a8, 0 1.5px #3761a8, 1.5px 0 #3761a8,
     0 -1.5px #3761a8;
+}
+
+.footer .copy p {
+  padding: 0.5rem;
 }
