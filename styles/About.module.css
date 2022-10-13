@@ -10,3 +10,12 @@
   text-align: center;
   line-height: 1.3rem;
 }
+
+.img {
+  background-color: #111;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 330px;
+}

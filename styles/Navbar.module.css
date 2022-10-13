@@ -35,5 +35,6 @@
 
 .navbar li a:hover {
   background-color: #e94141;
+  text-decoration: underline;
   transition: 0.1s;
 }

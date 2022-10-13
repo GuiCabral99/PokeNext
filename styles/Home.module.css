@@ -1,0 +1,28 @@
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.title h1 {
+  font-size: 2.8rem;
+  color: #111;
+}
+
+.title h1 span {
+  color: #feca1b;
+  text-shadow: -1.5px 0px #3761a8, 0 1.5px #3761a8, 1.5px 0 #3761a8,
+    0 -1.5px #3761a8;
+}
+
+.pokemons_container ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 85vw;
+  gap: 1.4rem;
+  margin: auto;
+}
