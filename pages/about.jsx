@@ -6,12 +6,7 @@ export default function About() {
   return (
     <div className={styles.about}>
       <h1>About us</h1>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni labore
-        exercitationem quis quisquam amet enim dicta consectetur mollitia
-        excepturi delectus officia, ducimus eum culpa consequuntur quidem.
-        Itaque doloribus neque exercitationem?
-      </p>
+      <p>PokeNext is an App built on Next.js to query Pokemons.</p>
       <div className={styles.img}>
         <Image
           src="/images/charizard.png"
